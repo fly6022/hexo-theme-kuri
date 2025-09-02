@@ -1,0 +1,55 @@
+# kuri Theme Config @ version 1.0.0
+# website: https://kuri.ink | cl@kuri.ink
+
+# Yourself / 个人信息
+nickname:  # 昵称
+motto:  # 一句话简介
+logo:  # 头像
+github:  # Github 个人主页地址
+background: # 背景图片
+  - https://api.ee123.net/img/bingimg/dayimg.jpg
+
+# SEO / 搜索引擎优化
+fav: /images/fav.png
+
+# Sidebar / 侧边栏
+sidebar:
+  A1: # 类别名称
+    B1: # 项目名称
+      - https://example.com/ # 超链接
+      - example # MDUI 鼠标悬停工具提示
+
+sidebar_color: 
+  A1: # 类别名称
+    - near_me # 图标
+    - mdui-text-color-blue # 图标颜色
+
+# Header / 页眉信息
+chizaobook: true # true / false 在页眉显示摛藻好句功能
+
+# Social / 社交按钮
+social:
+  C1: # 项目名称
+    - https://example.com # 超链接
+    - example # MDUI 鼠标悬停工具提示
+    - iconfont iconbili # 图标
+
+# Footer / 页脚信息
+## copyright / 版权
+author:  # 作者名称
+## remark / 备注
+remark: ''
+## Regist / 备案
+regist: ''
+
+# tools / 工具
+analysis: 
+  platform: 51.la
+  id: 
+  cd: 
+aplayer: 
+  enable: false
+  platform: 
+  type: 
+  id: 
+  fixed: true

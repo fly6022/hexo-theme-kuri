@@ -1,0 +1,17 @@
+<script>
+    let images = "<%= theme.background %>"
+    images = images.split(',')
+    let currentIndex = 0;
+
+    function changeBackground() {
+        //document.getElementById("bg").style.opacity = 1; // 渐隐
+        setTimeout(() => {
+            document.getElementById("bg").style.backgroundImage = `url(${images[currentIndex]})`;
+            document.getElementById("bg").style.opacity = 1; // 渐显
+            currentIndex = (currentIndex + 1) % images.length;
+        }, 1000); // 与transition时间一致
+    }
+
+    changeBackground()
+    setInterval(changeBackground, 15000); // 每15秒切换一次背景
+</script>

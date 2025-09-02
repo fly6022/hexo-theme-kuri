@@ -1,0 +1,29 @@
+<div id="container" class="container"> 
+    <div class="card"> 
+     <div id="card-content" class="card-content"> 
+      <center>
+       <div class="logo"></div>
+       <style>
+        .logo {
+	        width: 100px;
+	        height: 100px;
+	        margin-top: -50px;
+	        border:1px soild white;
+	        background: url('<%= theme.logo %>') no-repeat center;
+	        border-radius: 50px;
+	        background-size: 100px;
+        }
+       </style>
+      </center> 
+      <b class="nickname"><%= theme.nickname %></b> 
+      <br /> 
+      <b class="motto"><%= theme.motto %></b> 
+      <p> </p>
+      <div class="social">
+        <% for (a in theme.social) { %> 
+        <a href="<%= theme.social[a][0] %>" target="_blank"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '<%= theme.social[a][1] %>'}"><span class="<%= theme.social[a][2] %>"></span></button></a> 
+       <% } %>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
