@@ -1,8 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id 1994852 */
-  src: url('iconfont.woff2?t=1738643754843') format('woff2'),
-       url('iconfont.woff?t=1738643754843') format('woff'),
-       url('iconfont.ttf?t=1738643754843') format('truetype');
+  src: url('iconfont.woff2?t=1738643754843') format('woff2');
 }
 
 .iconfont {
@@ -88,4 +86,3 @@
 .iconradio:before {
   content: "\e61b";
 }
-
