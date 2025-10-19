@@ -8,6 +8,7 @@ logo:  # 头像
 github:  # Github 个人主页地址
 background: # 背景图片
   - https://api.ee123.net/img/bingimg/dayimg.jpg
+iconfont: /css/iconfont.css
 
 # SEO / 搜索引擎优化
 fav: /images/fav.png

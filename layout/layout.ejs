@@ -14,7 +14,10 @@
   <% if (theme.aplayer.enable) { %>
   <link rel="stylesheet" href="https://blog.kuri.ink/lib/aplayer@1.10.0/aplayer.min.css" /> 
   <% } %>
-  <script src="/js/mdui.min.js" importance="high"></script>   
+  <script src="/js/mdui.min.js" importance="high"></script>
+  <style>
+   @import url("<%= theme.iconfont %>");
+  </style>      
  </head> 
  <body> 
    <%- include("_widget/cover.ejs") %>
