@@ -4,7 +4,7 @@
 ![hexo-powered](https://img.shields.io/badge/HEXO-POWERED-blue?style=for-the-badge&logo=hexo)
 ![ejs-based](https://img.shields.io/badge/EJS-BASED-yellow?style=for-the-badge&logo=ejs)
 ![yaml-config](https://img.shields.io/badge/YAML-CONFIG-blueviolet?style=for-the-badge&logo=yaml)
-![version](https://img.shields.io/badge/version-1.1.1-orange?style=for-the-badge)
+![version](https://img.shields.io/badge/version-1.1.2-orange?style=for-the-badge)
 
 🤗 基于 Hexo & MDUI 的轻量级个人主页。
 
@@ -19,6 +19,7 @@
 - 单页面个人主页
 - Material Design设计语言
 - 毛玻璃效果
+- 自适应夜晚模式
 - Bing 每日图片
 - APlayer 音乐播放器
 - 摛藻 书摘
@@ -33,7 +34,7 @@
 ```bash
 cd {hexo目录}/themes
 git clone git@github.com:fly6022/hexo-theme-kuri.git
-hexo config theme kuri
+hexo config theme hexo-theme-kuri
 ```
 
 ### 配置 Kuri
@@ -76,3 +77,7 @@ Fork 本项目，并发起 Pull Request。
 ## 📃 许可证
 
 GPL v3.
+
+## 🤝 致谢
+
+1. 感谢 @bolangLEE12138 反馈的问题，现已改正。`version 1.1.2`
