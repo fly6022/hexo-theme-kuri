@@ -4,7 +4,7 @@
 ![hexo-powered](https://img.shields.io/badge/HEXO-POWERED-blue?style=for-the-badge&logo=hexo)
 ![ejs-based](https://img.shields.io/badge/EJS-BASED-yellow?style=for-the-badge&logo=ejs)
 ![yaml-config](https://img.shields.io/badge/YAML-CONFIG-blueviolet?style=for-the-badge&logo=yaml)
-![version](https://img.shields.io/badge/version-1.1.2-orange?style=for-the-badge)
+![version](https://img.shields.io/badge/version-1.1.3-orange?style=for-the-badge)
 
 🤗 基于 Hexo & MDUI 的轻量级个人主页。
 
