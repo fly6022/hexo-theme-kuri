@@ -3,15 +3,21 @@
      <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"> <i class="mdui-icon material-icons" mdui-tooltip="{content: '菜单'}">menu</i> </span> 
      <div class="mdui-toolbar-spacer">
       <% if (theme.chizaobook) { %> 
-      <script src="https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@latest/app.js" async></script> 
-      <chizaobook style="line-height: 1em; color:antiquewhite;"> 
+      <chizaobook style="line-height: 1em; color:#F5F5F5;;"> 
        <script>
-               const chizaobook = new Chizaobook({
-                 container: "chizaobook", // string
-                   packageSource: "https://cdn.jsdelivr.net/gh/ChizaoProject/Packages@latest/package_source.json", // string
-                   packageType: null // int
-               });
-             </script> 
+        let app = document.createElement('script');
+            app.src = 'https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/app.js';
+            app.async = true;
+            app.onload = function () {
+              chizaobook = new Chizaobook({
+                container: "chizaobook", // string
+                packageSource: "https://cdn.jsdelivr.net/gh/ChizaoProject/Packages@master/package_source.json", // string
+                packageType: null // int
+          })
+          chizaobook.selector();
+          };
+        document.head.appendChild(app);
+       </script> 
        <!--<div class="mdui-chip" style="margin: auto; position: fixed; transform: translate(0, -50%);">
              <span id="time" class="mdui-chip-title" style="transform: translate(0, -50%);"></span>
              <script>
