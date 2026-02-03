@@ -261,7 +261,6 @@ body.mdui-locked {
 }
 
 .mdui-theme-layout-dark {
-	color: #fff;
 	background-color: #303030
 }
 
@@ -284,7 +283,6 @@ body.mdui-locked {
 
 @media (prefers-color-scheme:dark) {
 	.mdui-theme-layout-auto {
-		color: #fff;
 		background-color: #303030
 	}
 
