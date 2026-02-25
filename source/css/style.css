@@ -94,7 +94,7 @@ a, a:hover {
 
 .sidebar {
 	box-shadow: 0 8px 39px 0 rgba(0, 0, 0, 0.37) !important;
-	background: rgba(10, 10, 10, 0.2);
+	background-color: rgba(10, 10, 10, 0.2) !important;
 	color: #F5F5F5;
 	box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
 	-webkit-backdrop-filter: blur(8px);
