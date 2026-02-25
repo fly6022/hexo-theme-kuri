@@ -75,7 +75,7 @@ a, a:hover {
 
 .card {
 	box-shadow: 0 8px 39px 0 rgba(255, 255, 255, 0.37) !important;
-	width: 50%;
+	width: 40%;
 	height: 50%;
 	}
 
@@ -90,6 +90,42 @@ a, a:hover {
 	backdrop-filter: blur(5px);
 	text-align: center;
 	line-height: 1.5;
+}
+
+@media only screen and (max-width: 500px) {
+	.card {
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.card {
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	.card {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.card {
+		width: 40%;
+	}
+}
+
+@media only screen and (min-width: 1250px) {
+	.card {
+		width: 30%;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	.card {
+		width: 20%;
+	}
 }
 
 .sidebar {
