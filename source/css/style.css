@@ -1,4 +1,4 @@
-/* Copyright (C) 2022 fly6022. */
+/* Copyright (C) 2022-2026 fly6022. */
 
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,500,800";
 @import "https://fonts.googleapis.com/css?family=Inter";
@@ -95,7 +95,7 @@ a, a:hover {
 .sidebar {
 	box-shadow: 0 8px 39px 0 rgba(0, 0, 0, 0.37) !important;
 	background: rgba(10, 10, 10, 0.2);
-	color: #222222;
+	color: #F5F5F5;
 	box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
 	-webkit-backdrop-filter: blur(8px);
 	border-radius: 5px;
@@ -159,7 +159,7 @@ hr {
 	bottom: 0;
 	padding-right: 0.5em;
 	padding-bottom: 0.5em;
-	color: #fff;
+	color: #F5F5F5;
 	text-align: center;
 	letter-spacing: -3px;
 	font-size: 16px;
@@ -169,7 +169,7 @@ hr {
 .remark {
 	display: inline-block;
 	margin: 0;
-	color: #fff !important;
+	color: #F5F5F5 !important;
 	vertical-align: middle;
 	letter-spacing: 0;
 	font-size: 9px;
